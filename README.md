@@ -20,20 +20,3 @@ Sebuah aplikasi kalkulator sederhana dan responsif yang dibuat menggunakan HTML,
 * **JavaScript (ES6+):** Logika utama untuk menangani *event* klik, appending nilai, dan evaluasi ekspresi (`eval()`).
 
 ---
-
-## 🖥️ Instalasi dan Cara Menjalankan
-
-Karena ini adalah proyek *front-end* sederhana, Anda tidak memerlukan *server* atau *package manager* (seperti npm).
-
-1.  **Kloning Repositori:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)<username>/<nama-repo>.git
-    ```
-2.  **Buka Folder:**
-    ```bash
-    cd <nama-repo>
-    ```
-3.  **Jalankan:**
-    Buka file `index.html` di *browser* pilihan Anda (klik kanan file, lalu pilih "Open with...").
-
----
