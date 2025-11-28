@@ -20,3 +20,10 @@ Sebuah aplikasi kalkulator sederhana dan responsif yang dibuat menggunakan HTML,
 * **JavaScript (ES6+):** Logika utama untuk menangani *event* klik, appending nilai, dan evaluasi ekspresi (`eval()`).
 
 ---
+## 🔗 Live Demo & Deployment
+
+Situs ini ter-deploy otomatis melalui Vercel.
+
+[**Coba Kalkulator Live di Vercel**](https://kalkulator-dark-mode.vercel.app/)
+
+Repositori ini telah dikonfigurasi untuk **Continuous Deployment (CD)**. Setiap kali ada perubahan yang di-*push* ke *branch* `main`, Vercel akan secara otomatis memperbarui situs *live*.
