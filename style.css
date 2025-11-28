@@ -93,6 +93,7 @@ body{
     border-radius: 3px;
     padding: 5px;
     border: none;
+    cursor: pointer;
 }
 
 /* Styling default (Light Mode) */
@@ -126,4 +127,5 @@ body {
 .dark-mode .btn.clear {
     background-color: #ffac28;
     color: white;
+
 }
