@@ -6,6 +6,7 @@ body{
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; 
+    transition: background-color 0.7s, color 0.7s;
 }
 
 .calculator{
@@ -96,17 +97,12 @@ body{
     cursor: pointer;
 }
 
-/* Styling default (Light Mode) */
-body {
-    background-color: #f4f4f4; /* Background terang */
-    color: #333; /* Teks gelap */
-    transition: background-color 0.3s, color 0.3s;
-}
 
-/* Styling untuk Dark Mode */
+
+/* Dark Mode */
 .dark-mode {
-    background-color: #1a1a1a; /* Background sangat gelap */
-    color: #ffffff; /* Teks terang */
+    background-color: #1a1a1a; 
+    color: #ffffff;
 }
 
 .dark-mode .kalkulator {
@@ -127,5 +123,4 @@ body {
 .dark-mode .btn.clear {
     background-color: #ffac28;
     color: white;
-
 }
