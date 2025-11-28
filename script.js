@@ -1,0 +1,31 @@
+// Fitur Utama Kalkulator
+function appendValue(value) { 
+    document.getElementById("display").value += value;
+}
+
+function clearDisplay() {
+    document.getElementById("display").value = "";
+}
+
+function calculate() {
+    const display = document.getElementById("display");
+    try {
+        display.value = eval(display.value); 
+    } catch (e) { 
+        display.value = 'YANG BENER!';
+    }
+}
+// Fitur Dark Mode
+let body = document.querySelector('body');
+let buttonmode = document.querySelector('.btnmode'); 
+
+function mode() {
+    body.classList.toggle('dark-mode');
+    
+    // Ubah Tulisan Tombol Mode
+    if (body.classList.contains('dark-mode')) {
+        buttonmode.textContent = 'Light Mode ☀️';
+    } else {
+        buttonmode.textContent = 'Dark Mode 🌙';
+    }
+}
