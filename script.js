@@ -1,6 +1,7 @@
-// Fitur Utama Kalkulator
-alert('Kamu Mau Ngitung yaaa? btw ada fitur dark mode loh,\nSilakan menekan OK di bawah untuk memunculkan Kalkulator');
-        
+let nama = prompt('Nama Kamu Siapa');
+alert(`Halo, ${nama}👋🏻 Mau Ngitung yaaa? btw ada fitur dark mode loh, Silakan menekan OK di bawah untuk memunculkan Kalkulator`);
+
+//Fitur Utama
 function appendValue(value) { 
     document.getElementById("display").value += value;
 }
