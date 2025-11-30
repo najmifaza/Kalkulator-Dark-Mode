@@ -1,4 +1,4 @@
-//Tambahin BOM biar asik hehe
+//Tambahin BOM biar asik
 let nama = prompt('Nama Kamu Siapa');
 alert(`Halo, ${nama}👋🏻 Mau Ngitung yaaa? btw ada fitur dark mode loh, Silakan menekan OK di bawah untuk memunculkan Kalkulator`);
 
@@ -14,8 +14,10 @@ function clearDisplay() {
 function calculate() {
     const display = document.getElementById("display");
     try {
+        console.log('calculating', display.value);
         display.value = eval(display.value); 
     } catch (e) { 
+        console.error('eror! value tidak sesuai');
         display.value = 'YANG BENER!';
     }
 }
@@ -29,7 +31,9 @@ function mode() {
     // Ubah Tulisan Tombol Mode
     if (body.classList.contains('dark-mode')) {
         buttonmode.textContent = 'Light Mode ☀️';
+        console.log('dark mode dijalankan');
     } else {
         buttonmode.textContent = 'Dark Mode 🌙';
+        console.log('light mode dijalankan')
     }
 }
