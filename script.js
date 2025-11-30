@@ -1,4 +1,6 @@
 // Fitur Utama Kalkulator
+alert('Kamu Mau Ngitung yaaa? btw ada fitur dark mode loh,\nSilakan menekan OK di bawah untuk memunculkan Kalkulator');
+        
 function appendValue(value) { 
     document.getElementById("display").value += value;
 }
