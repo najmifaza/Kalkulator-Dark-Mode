@@ -8,7 +8,7 @@ function appendValue(value) {
 }
 
 function clearDisplay() {
-    document.getElementById("display").value = "";
+    document.getElementById("display").value = '';
 }
 
 function calculate() {
@@ -18,7 +18,7 @@ function calculate() {
         display.value = eval(display.value); 
     } catch (e) { 
         console.error('eror! value tidak sesuai');
-        display.value = 'YANG BENER!';
+        display.value = 'YANG BENER NYED!';
     }
 }
 // Fitur Dark Mode

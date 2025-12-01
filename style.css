@@ -124,3 +124,9 @@ body{
     background-color: #ffac28;
     color: white;
 }
+
+
+.eror-mode {
+    background-color: #880000; 
+    color: #ffffff;
+}
