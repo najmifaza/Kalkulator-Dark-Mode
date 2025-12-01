@@ -1,5 +1,6 @@
 body{
     display: flex;
+    flex-direction: column  ;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -7,6 +8,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; 
     transition: background-color 0.7s, color 0.7s;
+    justify-content: flex-start;
 }
 
 .calculator{
@@ -15,8 +17,6 @@ body{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.301); 
     padding: 20px;
-
-    padding: 10px; 
 }
 #display{
     width: 100%;
@@ -25,7 +25,7 @@ body{
     margin-bottom: 20px;
     font-size: 28px;
     font-weight: bold;
-    text-align: right;
+    text-align: right;  
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -124,9 +124,38 @@ body{
     background-color: #ffac28;
     color: white;
 }
-
-
-.eror-mode {
-    background-color: #880000; 
+.dark-mode .header-info {
     color: #ffffff;
+    border-bottom: 1px solid #555;
+}
+
+.dark-mode .jam{
+    background-color:#000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.849); 
+
+}
+/* .header-info {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2em;
+    color: #333;
+    width: 100%;
+} */
+
+.header-info p {
+    margin: 5px 0;
+    font-weight: bold;
+    
+}
+
+/* Pastikan warna teks berubah saat Dark Mode aktif */
+
+.jam{
+    background-color:#f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301); 
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
 }

@@ -17,8 +17,14 @@
     <title>Najmi's Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body >
-    <div class="calculator">
+<body > 
+<div class="jam">
+  <div class="header-info">
+  <p id="time-display"></p>
+  <p id="date-display"></p>
+  </div>
+  </div>
+  <div class="calculator">
         <input type="text" id="display" disabled>
         <div class="button">
             <button class="btn" onclick="appendValue('7')">7</button>
@@ -41,7 +47,9 @@
             <button class="btnmode" onclick="mode()">Dark Mode 🌙</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script-calc.js"></script>
+    <script src="script-jam.js"></script>
+    <script src="script-darkmode.js"></script>
 </body>
 
 </html>
