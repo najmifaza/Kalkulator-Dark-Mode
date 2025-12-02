@@ -97,7 +97,59 @@ body{
     cursor: pointer;
 }
 
+.header-info p {
+    margin: 5px 25px;
+    font-weight: bold;
+    
+}
 
+
+.jam{
+    background-color:#f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301); 
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: left;
+    display: flex; 
+    flex-direction: row;
+}
+
+/* Styling Menu Utama (dari jawaban sebelumnya) */
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Mengatur item LI secara horizontal */
+}
+
+/* Styling Link: Mengatur Flexbox untuk mensejajarkan Ikon dan Teks */
+.main-nav li a {
+    display: flex;           /* Aktifkan Flexbox pada link */
+    align-items: center;     /* Posisikan ikon dan teks di tengah vertikal */
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+/* Styling Ikon SVG */
+.nav-icon {
+    /* Atur ukuran ikon agar tidak terlalu besar */
+    width: 20px;
+    height: 20px;
+    
+    /* Tambahkan ruang di antara ikon dan teks */
+    margin-right: 8px; 
+    
+    /* Gunakan properti CSS untuk warna */
+    fill: none; /* pastikan isian tidak ada */
+    stroke: white; /* atur warna garis menjadi putih */
+    transition: stroke 0.3s;
+}
+
+/* Efek saat Hover: Mengubah warna ikon dan teks */
+.main-nav li a:hover .nav-icon {
+    stroke: #FFB300; /* Ganti warna ikon saat hover */
+}
 
 /* Dark Mode */
 .dark-mode {
@@ -133,29 +185,4 @@ body{
     background-color:#000000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.849); 
 
-}
-/* .header-info {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 5px;
-    border-bottom: 1px solid #ddd;
-    font-size: 1.2em;
-    color: #333;
-    width: 100%;
-} */
-
-.header-info p {
-    margin: 5px 0;
-    font-weight: bold;
-    
-}
-
-/* Pastikan warna teks berubah saat Dark Mode aktif */
-
-.jam{
-    background-color:#f4f4f4;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301); 
-    width: 100%;
-    margin-bottom: 100px;
-    text-align: center;
 }
