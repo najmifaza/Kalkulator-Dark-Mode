@@ -1,23 +1,24 @@
-# 💡 Calculator Dark Mode
+# 💡 Najmi's Calculator (Dark Mode Ready)
 
-Sebuah aplikasi kalkulator sederhana dan responsif yang dibuat menggunakan HTML, CSS, dan JavaScript murni. Proyek ini berfungsi sebagai dasar yang bagus untuk memahami DOM manipulation dan *error handling* dalam JavaScript.
+Sebuah aplikasi kalkulator sederhana, responsif, dan lengkap dengan fitur mode gelap serta tampilan jam/tanggal real-time. Proyek ini dibuat menggunakan HTML, CSS, dan JavaScript murni, berfungsi sebagai dasar yang bagus untuk memahami DOM manipulation, *error handling*, dan penggunaan `Date()` object.
 
 ---
 
 ## 🚀 Fitur Utama
 
-* **Operasi Dasar:** Mendukung penjumlahan (`+`), pengurangan (`-`), perkalian (`X`), dan pembagian (`/`).
-* **Mode Gelap (Dark Mode):** Fungsi *toggle* untuk beralih antara tampilan terang dan gelap, meningkatkan pengalaman pengguna.
-* **Error Handling:** Menggunakan `try...catch` untuk menangani ekspresi yang tidak valid dan menampilkan pesan "Error".
-* **Desain Responsif:** Tata letak tombol grid yang bersih dan mudah digunakan.
+* **Operasi Dasar:** Mendukung penjumlahan (`+`), pengurangan (`-`), perkalian (`*` atau `X`), dan pembagian (`/`).
+* **Jam & Tanggal Real-Time:** Menampilkan waktu (format 24 jam) dan tanggal saat ini yang diperbarui setiap detik menggunakan lokal `id-ID` (Indonesia).
+* **Mode Gelap (Dark Mode):** Fungsi *toggle* untuk beralih antara tampilan terang dan gelap dengan transisi CSS yang halus.
+* **Error Handling (Custom):** Menggunakan `try...catch` untuk menangani ekspresi yang tidak valid dan menampilkan pesan unik: `YANG BENER NYED!`.
+* **Desain Responsif:** Tata letak tombol grid yang bersih dan mudah digunakan di berbagai ukuran layar.
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 
 * **HTML5:** Struktur dasar aplikasi.
-* **CSS3:** *Styling* dan tata letak grid, termasuk transisi untuk Dark Mode.
-* **JavaScript (ES6+):** Logika utama untuk menangani *event* klik, appending nilai, dan evaluasi ekspresi (`eval()`).
+* **CSS3:** *Styling*, tata letak grid, dan transisi untuk Dark Mode.
+* **JavaScript (ES6+):** Logika kalkulator utama (`appendValue`, `clearDisplay`, `calculate` dengan `eval()`), kontrol Dark Mode, dan pembaruan Jam/Tanggal secara real-time.
 
 ---
 ## 🔗 Live Demo & Deployment
